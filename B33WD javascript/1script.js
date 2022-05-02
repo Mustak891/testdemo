@@ -13,7 +13,7 @@ request.onload=function(){
     for(let i=0; i<res.length; i++){
         console.log(res[i].name);}
 
-        var sum=0;
+    
 
 
         //console.log(`flag: ${data[i].flag}`)

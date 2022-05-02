@@ -29,6 +29,15 @@ for (var car of mycars)
   console.log(`${car.name}`);
 }
 
+//forEach
+var obj={
+  name:"John",
+  age:23
+};
+Object.keys(obj).forEach((ele)=>{
+console.log(ele,obj[ele]);
+});
+
 //Create your own resume data in JSON format?
 let myData={"firstName": "mustak", "lastName": "ahamed","nativePlace": "chennai","qualification": "diploma"}
 console.log(`name:${myData.firstName} ${myData.lastName} place:${myData.nativePlace} qualification:${myData.qualification}`)

@@ -1,0 +1,239 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #313139;
+  color: #ffffff;
+  min-width: 100%;
+  height: 100vh;
+}
+#A1 {
+  background-color: #171721;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 10px;
+  margin: 30px;
+  /* border-radius: 30px; */
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  width: 60%;
+  height: 90vh;
+  /* position: relative; */
+}
+.redcircle {
+  color: red;
+  font-size: 5px;
+  padding-right: 3px;
+  padding-top: 3px;
+  padding-left: 22px;
+}
+.yellowcircle {
+  color: yellow;
+  font-size: 5px;
+  padding-right: 3px;
+  padding-top: 3px;
+}
+.greencircle {
+  color: green;
+  font-size: 5px;
+  padding-right: 2px;
+  padding-top: 3px;
+}
+.fa-bars {
+  padding-left: 5px;
+  padding: auto;
+  padding-top: 20px;
+  padding-right: 500px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  right: 25px;
+  margin-top: 3px;
+  color: gray;
+}
+.fa-desktop {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  top: 50px;
+  right: 545px;
+  margin-top: 20px;
+  background-color: #a8dcd8;
+  padding: 8px;
+  border-radius: 20px;
+}
+.fa-message {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  top: 105px;
+  right: 570px;
+  padding-top: 20px;
+}
+.fa-gauge {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  top: 140px;
+  right: 585px;
+  padding-top: 20px;
+}
+.fa-note-sticky {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  top: 175px;
+  right: 600px;
+  padding-top: 20px;
+}
+.fa-clock {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  top: 215px;
+  right: 615px;
+  padding-top: 20px;
+}
+.fa-bell {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  top: 258px;
+  right: 628px;
+  padding-top: 20px;
+}
+.fa-book {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  top: 300px;
+  right: 640px;
+  padding-top: 20px;
+}
+#taskheading {
+  position: relative;
+  right: 600px;
+  bottom: 7px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.fa-calendar-days {
+  position: relative;
+  right: 600px;
+  bottom: 7px;
+}
+.fa-calendar-days {
+  right: 810px;
+  margin-top: 70px;
+  color: grey;
+  font-size: 25px;
+}
+.mar7 {
+  position: relative;
+  right: 790px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: grey;
+  bottom: 60px;
+  padding-left: 10px;
+}
+.mar1 {
+  background-color: red;
+  padding: 2px;
+  border-radius: 9px;
+  margin: 2px;
+  font-size: x-small;
+}
+.datebelowline {
+  position: relative;
+  right: 810px;
+  bottom: 75px;
+  width: 700px;
+}
+#dayweekmonthyear {
+  position: relative;
+  right: 300px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: grey;
+  font-size: 20px;
+  bottom: 130px;
+}
+#day {
+  color: aqua;
+  border-bottom: #a8dcd8;
+}
+.dayline {
+  color: aqua;
+  position: relative;
+  right: 300px;
+  bottom: 157px;
+  font-size: larger;
+  font-weight: bolder;
+}
+#leftdesign {
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  right: 800px;
+  bottom: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+}
+.infography {
+  background-color: #22222c;
+  padding: 10px;
+  border-radius: 20px;
+}
+.fa-grip-lines-vertical {
+  color: pink;
+  font-size: 40px;
+  position: relative;
+  top: 120px;
+  right: 1300px;
+}
+.vertical_dotted_line {
+  border-left: 1px dotted grey;
+  height: 325px;
+  position: relative;
+  right: 1308px;
+  top: 180px;
+}
+#about2hours {
+  background-color: #22222c;
+  position: relative;
+  top: 125px;
+  right: 1300px;
+  padding-top: 5px;
+  padding-right: 150px;
+  padding-bottom: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: pink;
+}
+#pm1 {
+  color: grey;
+  position: relative;
+  top: 505px;
+  right: 1610px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

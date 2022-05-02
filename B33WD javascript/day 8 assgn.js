@@ -1,3 +1,4 @@
+//Write a “person” class to hold all the details.
 class person{
     constructor(name,age,gender,dateOfBirth,maritalStatus){
         this.name=name;
@@ -10,7 +11,7 @@ class person{
 let detial = new person("ajith","25","male","22-09-1997", "married");
 console.log(detial);
 
-
+//write a class to calculate uber price.
 class uberfare {
     constructor() {
       this.prop = 12;

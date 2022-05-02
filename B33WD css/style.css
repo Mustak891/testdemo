@@ -1,0 +1,17 @@
+body{
+    background-color: lightgray;
+}i{
+    color: blue;
+}p{
+    font-size: 12px;
+}.insidebox{
+    background-color: whitesmoke;
+    padding: 60px 10px;
+    margin: 20px 0px;
+}a{
+    border-bottom: 1px solid blue;
+}.text{
+    margin: 10px 0px;
+}.box{
+    padding: 60px 0px;
+}
